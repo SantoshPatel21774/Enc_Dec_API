@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "EncryptDecryptAPI.Controllers.AuthController",
+    "Method": "GetToken",
+    "RelativePath": "api/Auth/token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenResquest",
+        "Type": "Core.Models.Token.TokenResquest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoController",
+    "Method": "GenerateKeyAndIV",
+    "RelativePath": "api/Crypto/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Encrpt_Decrpt_API.Controllers.DecryptController",
+    "Method": "Decrypt",
+    "RelativePath": "api/Decrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "decryptionRequest",
+        "Type": "Core.Models.Decryption.DecryptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Encrpt_Decrpt_API.Controllers.EncryptController",
+    "Method": "Encrypt",
+    "RelativePath": "api/Encrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "encryptionRequest",
+        "Type": "Core.Models.Encryption.EncryptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
