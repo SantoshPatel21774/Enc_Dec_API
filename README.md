@@ -1,1 +1,1 @@
-Encrypt and Decrypt of any value
+Encrypt and Decrypt of any data
