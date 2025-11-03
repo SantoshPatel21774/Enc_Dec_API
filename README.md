@@ -39,9 +39,18 @@ The primary goal of this project is to:
 ```
 Enc_Dec_API/
 ├── BAL/                     # Business logic layer
+│   ├── Interface/           # Interfaces for services
+│   └── Service/             # Implementation of business services
 ├── Common/                  # Shared utilities and constants
-├── Core/                    # Core domain models and interfaces
+│   ├── Enum/                # Enumerations used across the app
+│   ├── Extension/           # Extension methods
+│   └── Service/             # Common services
+├── Core/                    # Core domain models and validations
+│   ├── Models/              # Data models
+│   └── Validations/         # Validation logic
 ├── DAL/                     # Data access layer
+│   ├── IKeyRepository.cs    # Interface for key repository
+│   └── KeyRepository.cs     # Implementation of key repository
 ├── EncryptDecryptAPI/       # Main ASP.NET Core API project
 │   ├── Controllers/         # API endpoints (Encrypt/Decrypt)
 │   ├── Filters/             # Custom filters for validation/logging
@@ -49,9 +58,8 @@ Enc_Dec_API/
 │   ├── appsettings.json     # Configuration settings
 │   ├── EncryptDecryptAPI.http # API testing file
 │   ├── Program.cs           # Application entry point
-│   ├── Startup.cs           # Service and middleware configuration
+│   └── Startup.cs           # Service and middleware configuration
 ├── Logging/                 # Logging utilities
-```
 
 ---
 
