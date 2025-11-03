@@ -10,7 +10,6 @@ This ASP.NET Core Web API project provides secure endpoints for AES-256 encrypti
 The primary goal of this project is to:
 - Provide a secure and reusable AES-256 encryption/decryption service.
 - Enable secure data transmission and storage in enterprise applications.
-- Support compliance with data protection standards (e.g., GDPR, HIPAA, PCI-DSS).
 - Demonstrate best practices for cryptographic operations in ASP.NET Core.
 
 ---
@@ -27,9 +26,9 @@ The primary goal of this project is to:
 ---
 
 ## 🛠️ Technologies Used
-- ASP.NET Core 6/7
+- ASP.NET Core 9
 - C#
-- AES (Advanced Encryption Standard)
+- AES-256 (Advanced Encryption Standard)
 - Swagger / OpenAPI
 - Dependency Injection
 - Configuration via `appsettings.json`
@@ -63,13 +62,18 @@ Enc_Dec_API/
 - **Request Body**:
 ```json
 {
-  "plainText": "Hello World"
+  "RequestValue": "string"
 }
 ```
 - **Response**:
 ```json
 {
-  "cipherText": "Base64EncodedEncryptedText"
+  "IsScuccess": true,
+  "Data": {
+    "EncryptedValue": "QkjpiK7kTvPMOX4AeCENDQ=="
+  },
+  "Message": "Encryption completed",
+  "ResponseTime": "2025-11-03T13:38:13.4558562+05:30"
 }
 ```
 
@@ -78,13 +82,18 @@ Enc_Dec_API/
 - **Request Body**:
 ```json
 {
-  "cipherText": "Base64EncodedEncryptedText"
+  "EncryptedValue": "QkjpiK7kTvPMOX4AeCENDQ=="
 }
 ```
 - **Response**:
 ```json
 {
-  "plainText": "Hello World"
+  "IsScuccess": true,
+  "Data": {
+    "DecryptedValue": "Santosh"
+  },
+  "Message": "Decryption completed",
+  "ResponseTime": "2025-11-03T13:38:51.9069261+05:30"
 }
 ```
 
