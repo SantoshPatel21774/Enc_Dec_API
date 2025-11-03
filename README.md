@@ -60,7 +60,7 @@ Enc_Dec_API/
 │   ├── Program.cs           # Application entry point
 │   └── Startup.cs           # Service and middleware configuration
 ├── Logging/                 # Logging utilities
-
+```
 ---
 
 ## 📡 API Endpoints
