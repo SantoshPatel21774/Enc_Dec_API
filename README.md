@@ -102,7 +102,7 @@ Enc_Dec_API/
 ## 🔧 Configuration
 Set your AES key and IV in `appsettings.json`:
 ```json
-"AesSettings": {
+"EncryptionKeyandIV": {
   "Key": "your-256-bit-base64-key",
   "IV": "your-128-bit-base64-iv"
 }
