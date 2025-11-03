@@ -64,3 +64,4 @@ D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\ref\EncryptDecryptAPI.dll
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Logging.dll
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Logging.pdb
+D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.sourcelink.json

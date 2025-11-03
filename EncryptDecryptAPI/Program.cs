@@ -15,7 +15,7 @@ Env.Load();
 //    LogFileDateFormat = builder.Configuration["Logging:CustomFileLogger:LogFileFormat"] ?? string.Empty
 //};
 //builder.Logging.AddProvider(new CustomFileLoggerProvider(customFileLoggerOptions));
-
+builder.Configuration.AddEnvironmentVariables();
 
 var startup = new Startup(builder.Configuration);
 
