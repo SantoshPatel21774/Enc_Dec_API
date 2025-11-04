@@ -1,11 +1,12 @@
-﻿using BAL.Interface;
-using Common.Extension;
+﻿using Common.Extension;
 using Core.Models.KeyIvModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(AuthenticationSchemes = "Bearer")]
 public class CryptoController : ControllerBase
 {
     private readonly ILogger<CryptoController> _logger;
