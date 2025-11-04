@@ -26,11 +26,10 @@ namespace Encrpt_Decrpt_API.Controllers
             try
             {
                 if (string.IsNullOrEmpty(decryptionRequest?.EncryptedValue))
-                {
                     return BadRequest("EncryptedValue cannot be null or empty.".ToFailureResponse());
-                }
 
                 var result = await _decryptService.DecryptHelperAsync(decryptionRequest.EncryptedValue);
+                
                 return Ok(result);
             }
             catch (Exception ex)

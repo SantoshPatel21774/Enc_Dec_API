@@ -35,10 +35,12 @@ D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\BAL.dll
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Common.dll
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Core.dll
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\DAL.dll
+D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Logging.dll
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\BAL.pdb
+D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Common.pdb
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Core.pdb
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\DAL.pdb
-D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Common.pdb
+D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Logging.pdb
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.csproj.AssemblyReference.cache
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\rpswa.dswa.cache.json
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.GeneratedMSBuildEditorConfig.editorconfig
@@ -47,6 +49,7 @@ D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.csproj.CoreCompileInputs.cache
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.sourcelink.json
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -62,6 +65,3 @@ D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\refint\EncryptDec
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.pdb
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.genruntimeconfig.cache
 D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\ref\EncryptDecryptAPI.dll
-D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Logging.dll
-D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\bin\Debug\net9.0\Logging.pdb
-D:\Own_Projects\Enc_Dec_API\EncryptDecryptAPI\obj\Debug\net9.0\EncryptDecryptAPI.sourcelink.json
