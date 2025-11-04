@@ -43,7 +43,7 @@ namespace Encrpt_Decrpt_API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Eicore - Encryption Decryption APIs",
+                    Title = "Encryption Decryption APIs",
                     Version = "v1"
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
