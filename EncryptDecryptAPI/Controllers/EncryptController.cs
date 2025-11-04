@@ -26,17 +26,16 @@ namespace Encrpt_Decrpt_API.Controllers
             try
             {
                 if (string.IsNullOrEmpty(encryptionRequest?.RequestValue))
-                {
                     return BadRequest("RequestValue cannot be null or empty.".ToFailureResponse());
-                }
 
                 var result = await _encryptService.EncryptHelperAsync(encryptionRequest.RequestValue);
+                
                 return Ok(result);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "[EncryptController.Encrypt] : " + "Unhandled exception occurred");
-                string messgage = "An unexpected error occurred.(" + ex.Message + ")";
+                string messgage = $"An unexpected error occurred.({ex.Message})";
                 return BadRequest(messgage.ToFailureResponse());
             }
         }
